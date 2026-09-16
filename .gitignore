@@ -1,0 +1,9 @@
+.DS_Store
+*.zip
+revisao/
+COPY-E-ORIGEM.md
+COMENTARIOS.md
+.env
+.env.*
+!.env.example
+node_modules/
