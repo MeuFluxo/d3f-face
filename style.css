@@ -41,11 +41,11 @@ svg.stroke-icon { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-li
 /* Compensa as linhas da headline para manter o vídeo próximo à posição do print. */
 .video-section { padding-top: 59px; }
 .video-wrap { display: flex; justify-content: center; }
-.video-player { position: relative; width: min(100%, var(--player-width)); aspect-ratio: 9 / 16; background: #3d85c6; color: #fff; overflow: hidden; }
+.video-player { position: relative; width: min(100%, var(--player-width)); aspect-ratio: 3 / 4; background: #3d85c6; color: #fff; overflow: hidden; }
 .video-player video, .video-player iframe { display: block; width: 100%; height: 100%; border: 0; object-fit: contain; }
 .embed-stage { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; background: #000; }
-/* A VSL fornecida é 3:4. Centralizá-la no quadro 9:16 preserva a imagem sem cortes. */
-.video-player .embed-stage iframe { display: block; width: 100%; height: 75%; min-height: 0; max-width: 100%; max-height: 100%; aspect-ratio: 3 / 4; }
+/* O quadro usa o mesmo formato feed 3:4 da VSL, sem faixas extras nem cortes. */
+.video-player .embed-stage iframe { display: block; width: 100%; height: 100%; min-height: 0; max-width: 100%; max-height: 100%; }
 .is-playing .embed-stage { opacity: 1; pointer-events: auto; }
 .is-playing { background: #000; }
 .resume-card { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 14px; }

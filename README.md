@@ -66,7 +66,7 @@ Player identificado na página fornecida:
 - Endereço alternativo e carregamento após clique: `script.js`.
 - Página isolada do embed: `player.html`.
 
-A VSL fornecida usa proporção 3:4; ela é centralizada, sem cortar a imagem, dentro do quadro 9:16 da referência. As faixas pretas durante a reprodução são intencionais. O quadro azul inicial mantém 322 × 572,44 px no desktop.
+A VSL e o quadro do player usam a mesma proporção feed 3:4, sem faixas pretas adicionadas pela página e sem cortar ou esticar a imagem. A tela inicial e a reprodução mantêm aproximadamente 322 × 429,33 px no desktop; no mobile, a largura e a altura diminuem proporcionalmente quando necessário.
 
 Dependendo do histórico e das permissões de reprodução do navegador, o player VTurb pode apresentar sua própria confirmação de continuar/reiniciar depois do carregamento. Os controles nativos permanecem disponíveis.
 
